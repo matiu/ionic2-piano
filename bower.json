@@ -1,0 +1,22 @@
+{
+  "name": "piano",
+  "description": "Piano: An Ionic project",
+  "main": "",
+  "authors": [
+    "Matias Alejo Garcia <ematiu@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "timbre.js": "timbre#~14.11.25"
+  }
+}
