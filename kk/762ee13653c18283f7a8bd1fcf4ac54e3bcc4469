@@ -1,9 +1,0 @@
-
-
-Test scatfolding from:
-
-http://lathonez.github.io/2016/ionic-2-unit-testing/
-
-
-      { pattern: 'node_modules/ionic-native/**/*.js', included: false, watched: false },
-to karma conf
