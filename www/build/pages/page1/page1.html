@@ -1,0 +1,28 @@
+<ion-navbar *navbar>
+  <ion-title>Classic Piano</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <i>Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.</i>
+
+  <div>
+
+  <button *ngFor="#item of notes" (click)="play(item)" full [disabled]="item.disabled"> 
+  {{item.name}} 
+  <ion-badge item-right>{{item.times}}</ion-badge>
+  
+</button>
+
+
+<ion-item>
+  <ion-label>Alert me on 5 clicks</ion-label>
+  <ion-checkbox dark  [(ngModel)]="alertMe"></ion-checkbox>
+</ion-item>
+
+<ion-item>
+  <ion-label>Piano</ion-label>
+  <ion-toggle [(ngModel)]="Piano"></ion-toggle>
+</ion-item>
+
+  </div>
+</ion-content>
